@@ -9,8 +9,7 @@
     "label": {
       "type": "string",
       "default": "Comprar",
-      "required": true,
-      "minLength": 20
+      "required": true
     },
     "url": {
       "type": "string",

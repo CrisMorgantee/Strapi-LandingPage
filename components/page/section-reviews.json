@@ -15,23 +15,6 @@
       "repeatable": true,
       "component": "page.reviews",
       "required": true
-    },
-    "name": {
-      "type": "string",
-      "required": false
-    },
-    "text": {
-      "type": "text",
-      "required": false
-    },
-    "photo": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false
     }
   }
 }
